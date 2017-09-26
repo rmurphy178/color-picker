@@ -1,9 +1,11 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 
+// <Route exact path="/" component={} />
+
 const App = () => (
     <div>
-        <Route exact path="/" component={} />
+      <h1>Colors</h1>
     </div>
 );
 
